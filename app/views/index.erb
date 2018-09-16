@@ -1,7 +1,15 @@
 <h1>Your Delicious Recipes</h1>
+<<<<<<< HEAD
 <%@recipes.each do |recipe|%>
 <a href="/recipes/<%= recipe.id %>"></a>
 <%=recipe.name%>
 <%=recipe.ingredients%>
 <%=recipe.cook_time%>
+=======
+<%@recipes.each do |r|%>
+<%=r.name%>
+<%=r.ingredients%>
+<%=r.cook_time%>
+<a href=''
+>>>>>>> fb3660633b470d20695639ddfb6cdcec2e2d9ea5
 <%end%>
